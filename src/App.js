@@ -1,7 +1,7 @@
 import { useAuth0 } from '@auth0/auth0-react';
 import logo from './logo.svg';
-import { LoginButton } from './Login';
-import { LogoutButton } from './Logout';
+import { LoginButton } from './components/Login';
+import { LogoutButton } from './components/Logout';
 import { Profile } from './Profile';
 import './App.css';
 

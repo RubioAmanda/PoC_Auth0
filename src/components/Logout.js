@@ -5,6 +5,8 @@ export const LogoutButton = () => {
     const {logout} = useAuth0();
 
     return (
-        <button onClick={() => logout({returnTO: window.location.origin})}>Logout</button>
+        <button onClick={() => logout({returnTO: window.location.origin})}>Log Out</button>
     );
 };
+
+export default LogoutButton;
